@@ -1,0 +1,1 @@
+  Compress-Archive -Force -Path .\src -DestinationPath .\deploy\set-file-dates.zip

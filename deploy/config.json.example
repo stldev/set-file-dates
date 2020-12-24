@@ -1,0 +1,7 @@
+{
+    "credFile": "SOME_CRED_FILE.xml",
+    "server":"DEST_SERVER_NAME",
+    "srcZip": ".\\deploy\\set-file-dates.zip",
+    "destZip": "C:\\_RELEASES\\set-file-dates.zip",
+    "destDir": "C:\\_RELEASES\\set-file-dates"
+}

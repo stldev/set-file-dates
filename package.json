@@ -6,7 +6,10 @@
   "scripts": {
     "imgs": "powershell.exe ./src/main-imgs.ps1",
     "vids": "powershell.exe ./src/main-vids.ps1",
-    "media": "powershell.exe ./src/index-npm.ps1"
+    "media": "powershell.exe ./src/index-npm.ps1",
+    "server-deploy": "powershell.exe ./deploy/deploy.ps1",
+    "zip": "powershell.exe ./deploy/zip-dist.ps1",
+    "publish-local": "npm run zip && npm run server-deploy"
   },
   "repository": {
     "type": "git",
