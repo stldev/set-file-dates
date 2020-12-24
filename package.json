@@ -1,0 +1,21 @@
+{
+  "name": "set-file-dates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "imgs": "powershell.exe ./src/main-imgs.ps1",
+    "vids": "powershell.exe ./src/main-vids.ps1",
+    "media": "powershell.exe ./src/index-npm.ps1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stldev/set-file-dates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stldev/set-file-dates/issues"
+  },
+  "homepage": "https://github.com/stldev/set-file-dates#readme"
+}
