@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "name": "personA",
+      "path": "SOME_PATH_TO_MEDIA"
+    },
+    {
+      "name": "personB",
+      "path": "SOME_PATH_TO_MEDIA"
+    }
+  ],
+  "imgExts": ["*.jpg", "*.jpeg"],
+  "vidExts": ["*.3gp", "*.mov", "*.mp4"]
+}

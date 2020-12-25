@@ -1,5 +1,5 @@
-# $configName = 'config.json'
-$configName = '.\config-test.json'
+$configName = 'config.json'
+# $configName = '.\config-test.json'
 $cfg = Get-Content $configName -errorAction stop | ConvertFrom-Json
 $fileName = ".\no-datetaken.csv"
 $timeNow = Get-Date -Format "o"
